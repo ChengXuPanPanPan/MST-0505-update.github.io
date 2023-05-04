@@ -91,7 +91,26 @@ body {
 .contact-wrap .contact-option .info li i {
     margin-right: 10px;
 }
-
+@media(max-width:768px) {
+    .contact-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-wrap .topic {
+        position: relative;
+        left: 0;
+        font-size: 35px;
+        font-weight: 100;
+        margin: 0 auto;
+    }
+    .contact-wrap .contact-option {
+        position: relative;
+        width: 50%;
+        top: 20%;
+        margin: 0 auto;
+    }
+}
 @keyframes FadeIn {
     0% {
         opacity: 0;
