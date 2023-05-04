@@ -156,7 +156,7 @@ header .logo h3 {
     .index-page .menu {
         width: 100%;
         justify-content: space-between;
-        transform: translateY(-150%);
+        transform: translateY(-120%);
     }
 }
 
