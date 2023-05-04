@@ -139,7 +139,7 @@ header .language_select .active {
     .content .about {
         width: 95%;
         margin: 0 auto 50px;
-        display: none;
+/*         display: none; */
         transition: 0.4s;
     }
 }
