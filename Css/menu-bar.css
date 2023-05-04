@@ -118,6 +118,7 @@ header .logo h3 {
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    z-index:50;
 }
 
 .index-page .menu a {
