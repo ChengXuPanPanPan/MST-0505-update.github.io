@@ -138,8 +138,18 @@ header .logo h3 {
 }
 
 @media(max-width:768px) {
+    header{
+        padding:0;
+    }
     header .logo {
         display: none;
+    }
+      header .menu {
+        width: 90%;
+        justify-content: space-around;
+    }
+    .menu a {
+        margin: 0;
     }
     .index-page {
         display: block;
